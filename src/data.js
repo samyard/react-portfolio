@@ -44,7 +44,7 @@ export const projects = [
     description:
       "This paper outlines policies to mitigate technological redlining.",
     image: "./nn.avif",
-    link: "https://github.com/samyard/453-DevProj",
+    link: "./ai.pdf",
   }
 ];
 
