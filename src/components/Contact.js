@@ -31,12 +31,12 @@ export default function Contact() {
   return (
 <section id="contact" className="relative">
 <div className="container px-15 py-10 mx-auto flex sm:flex-nowrap flex-wrap relative">
-    <div className="lg:w-full md:w-full bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+    <div className=" lg:w-full md:w-full bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-5 flex items-end justify-start relative">
       <img
-        className="object-cover object-center rounded"
+        className="object-cover object-center rounded w-full h-auto md:w-full lg:w-full"
         src="./backbay.png" 
         alt="Boston"
-        style={{ maxHeight: '70vh', minWidth: '250px',maxWidth: '80vh', filter: 'opacity(0.95)' }}
+        style={{maxHeight: '800px', maxWidth:'700px', filter: 'opacity(0.95)' }}
       />
       <div className="bottom-right bg-gray-900 absolute p-6 rounded-md shadow-md text-white" style={{ left: '15%', bottom: '10%', opacity: '0.95' }}>
       <div className="lg:w-full md:w-full px-1">
@@ -63,8 +63,8 @@ export default function Contact() {
         <form
           netlify="true"
           name="contact"
-          className="sm: w-1/2 lg:w-1/2 md:w-1/2 flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0"
-          style={{ maxHeight: '600px' , maxWidth: '50vh', minWidth: '300px'}}
+          className="sm: w-full lg:w-full md:w-full flex flex-col items-center md:ml-auto md:py-8 mt-8 md:mt-0"
+          style={{ maxHeight: '700px' , maxWidth: '80vh', minWidth: '300px'}}
           >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font text-center">
             Send Me A Message
